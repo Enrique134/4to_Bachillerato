@@ -1,8 +1,11 @@
 //          //
 //  Matrix  //
 //          //
-#include<iostream>
+
+// incomplete
 #include<conio.h>
+#include<iostream>
+#include<map>
 #include<windows.h>
 using namespace std;
 
@@ -11,24 +14,55 @@ const int MATRIX_J = 10;
 
 char choise;
 
-void printFrame(int i = NULL, int j = NULL){
-  if(!i || !j){
-    
-  }
-}
-
+template <T, V>
 class Matrix{
-  int Matrix[MATRIX_I][MATRIX_J];
+  private:
+    T MatrixT;
+    map<T, map<T, V>> MatrixV;
+
+    type_info TtypeId = typeid(T);
+    type_info VtypeId = typeid(V);
+
+    auto keydef(T key; int i = sizeof(MatrixT[]); int j = sizeof(MatrixT)){
+      if(typeid(T) != typeid(int)){
+        return false;
+      }
+
+      return MatrixT;
+    }
   
-  void list(int iv = NULL, int jv = NULL){
-    for(int i = iv || 0; i < iv || MATRIX_I; i++){
-      printFrame(i);
+  protected:
+    void printFrame(T i = NULL, T j = NULL){
       
-      for(int j = jv || 0; j < jv || MATRIX_J; j++){
-       printFrame(j);
+    }
+
+  public:
+    Matrix(int i = 0, int j = 0){
+      if typeid(T) ==  && typeid()){
+        for(int i = 0; i < i; i++){
+          MatrixT[0][i] = i;
+          Matrix[i][0] = i;
+        }
       }
     }
-  }
+
+    void list(int i = NULL, int j = NULL){
+      for(int i = i || 0; i < i || MATRIX_I; i++){
+        printFrame(i);
+        
+        for(int j = j || 0; j < j || MATRIX_J; j++){
+          printFrame(j);
+        }
+      }
+    }
+
+    void insert(V value, T i, T j){
+      MatrixV.at(i).at(j) = value;
+    }
+
+    void remove(T i, T j){
+      MatrixV.at(i).at(j) = NULL;
+    }
 }
 
 void cls(){
