@@ -12,7 +12,7 @@
 
 #define EJERCICIO /*número de ejercicio*/
 
-#line 13
+#line 10
 
 int main();
 
