@@ -1,11 +1,18 @@
 /// Ejercicios 3er Bimestre
-// Para compilar un ejercicio escriba el número del ejercicio en la macros EJERCICIO
+
+/*  -- LEER --  *******************************************************************************************************
+    Para compilar un ejercicio escriba el número del ejercicio en la macro EJERCICIO (línea 9 "#define EJERCICIO")
+
+    Ejercicios: 
+        1 = Vector de Números
+        2 = Ordenamiento de Arreglo
+        3 = Calculadora de Promedio
+
+**********************************************************************************************************************/
+
 #define EJERCICIO /*número de ejercicio*/
 
-#ifndef EJERCICIO
-#line 3
-#error ¡No se ha especificado ningún ejercicio para compilar!
-#endif
+#line 9
 
 int main();
 
