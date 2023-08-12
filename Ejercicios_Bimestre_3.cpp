@@ -1,20 +1,19 @@
 /// Ejercicios 3er Bimestre
 
-/*  -- LEER --  *******************************************************************************************************
-    Para compilar un ejercicio escriba el número del ejercicio en la macro EJERCICIO (línea 13 "#define EJERCICIO")
+// LEER
+/* 
+Para compilar un ejercicio escriba el número del ejercicio en la macro EJERCICIO (línea 13 "#define EJERCICIO")
 
-    Ejercicios: 
-        1 = Vector de Números
-        2 = Ordenamiento de Arreglo
-        3 = Calculadora de Promedio
-
-**********************************************************************************************************************/
+Ejercicios: 
+    1 = Vector de Números
+    2 = Ordenamiento de Arreglo
+    3 = Calculadora de Promedio
+*/
 
 #define EJERCICIO /*número de ejercicio*/
 
-#line 10
-
 int main();
+
 
 #if EJERCICIO == 1
 //////////////////////////////\
@@ -24,9 +23,12 @@ int main();
  ingresar dato por dato a cada posición, debe imprimir en pantalla el vector original  \
  y el vector en orden inverso. Del último al primer elemento."                         \
 
-main(){}
+main(){
+    
+}
 
 
+#line 13
 #elif EJERCICIO == 2
 //////////////////////////////\
 *   Ordenamiento de Arreglo   *
@@ -35,7 +37,9 @@ main(){}
  ordene  en  forma  ascendente  utilizando el método de burbuja.  Luego,  muestra  el  \
  arreglo ordenado en la consola."                                                      \
 
-main(){}
+main(){
+    
+}
 
 
 #elif EJERCICIO == 3
@@ -48,6 +52,8 @@ main(){}
  los  estudiantes  en diferentes situaciones académicas en función de sus  promedios,  \
  como "Aprobado“ y "Reprobado“, Si nota > 60 = Aprobado, Si nota < 60 = Reprobado."    \
 
-main(){}
+main(){
+    
+}
 
 #endif
