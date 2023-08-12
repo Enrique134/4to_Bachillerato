@@ -1,2 +1,2 @@
-# Computacion-Tareas
+# Computación
 Cuarto Bachillerato Gamma Computación
