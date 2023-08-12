@@ -14,7 +14,6 @@ Ejercicios:
 
 int main();
 
-
 #if EJERCICIO == 1
 //////////////////////////////\
 *      Vector de Números      *
@@ -28,7 +27,6 @@ main(){
 }
 
 
-#line 13
 #elif EJERCICIO == 2
 //////////////////////////////\
 *   Ordenamiento de Arreglo   *
@@ -57,3 +55,7 @@ main(){
 }
 
 #endif
+
+
+
+
