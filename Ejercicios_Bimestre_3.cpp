@@ -2,7 +2,7 @@
 
 /* ¡LEEME! *\
 *******************************************************************************************************************
-    Para compilar un ejercicio escriba el número del ejercicio en la macro EJERCICIO (línea 13 "#define EJERCICIO")
+    Para compilar un ejercicio escriba el número del ejercicio en la macro EJERCICIO (línea 14 "#define EJERCICIO")
 
     Ejercicios: 
         1 = Vector de Números
