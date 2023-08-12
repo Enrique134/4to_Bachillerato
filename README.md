@@ -1,2 +1,2 @@
 # Computación
-Cuarto Bachillerato Gamma Computación
+Cuarto Bachillerato Gamma, Computación
