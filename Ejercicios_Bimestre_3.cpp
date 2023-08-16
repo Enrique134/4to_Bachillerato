@@ -57,7 +57,8 @@ main(){
     string vector_s;
     string vectorInverse_s;
     
-    cout <<"vector size: ";
+    cout <<"[[ Inverse Vector ]]\n\n\n"
+    "vector size: ";
     cin>> vectorSize;
     vectorSize -= 1;
 
@@ -77,11 +78,11 @@ main(){
         vector_s += "["+to_string(i)+"] = "+input_s+"; ";
         vectorInverse_s.insert(0, "["+to_string(vectorSize - i)+"] = "+input_s+"; ");
     }
-    
+
     vector_s.erase(vector_s.size() - 2);
     vectorInverse_s.erase(vectorInverse_s.size() - 2);
 
-    cout <<"\nResults:\n";
+    cout <<"\nResults:";
     cout <<"\n- vector\n"+vector_s <<endl;
     cout <<"\n- vector inverse\n"+vectorInverse_s <<endl;
 
