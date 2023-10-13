@@ -1,3 +1,5 @@
+const int REQUIRED_STRING_SIZE = 10;
+
 #include <iostream>
 
 #include <conio.h>
@@ -11,10 +13,10 @@ int main(void) {
     printf("write a string: ");
     cin>> _string;
 
-    if() {
+    if(_string.length() > REQUIRED_STRING_SIZE) {
         printf("the input string is \"%s\"", _string);
     } else {
-        printf("the string is no more than 10 characters");
+        printf("the string is no more than %i characters", REQUIRED_STRING_SIZE);
     }
 
     getch();
