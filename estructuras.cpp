@@ -42,16 +42,18 @@ int main(void) {
     printf("write employee identifier for search: ");
     cin>> search;
 
+    bool employeeFounded;
     Employee highestSalary = employees[0], lowestSalary = employees[0];
 
     for(int i = 0; i < count; ++i) {
         if(employees[i].salary >= highestSalary.salary) {
             highestSalary = employees[i];
-        } else if(employes[i].salary <= lowestSalary.salary) {
+        } else if(employees[i].salary <= lowestSalary.salary) {
             lowestSalary = employees[i];
         }
 
         if(employees[i].identifier == search) {
+            employeeFounded = true;
             searchedEmployee = employees[i];
         }
     }
@@ -61,7 +63,7 @@ int main(void) {
     printf("lowest salary:");
     lowestSalary.print();
     
-    if(searchedEmployee) {
+    if(employeeFounded) {
         printf("searched employee \"%i\":", search);
         searchedEmployee.print();
     } else {
