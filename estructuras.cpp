@@ -8,13 +8,14 @@
 using namespace std;
 
 class Employee {
-    string name;
-    int identifier;
-    double salary;
+    public:
+        string name;
+        int identifier;
+        double salary;
 
-    void print() {
-        printf("\n%s\nidentifier %i\nsalary %lf\n\n", name, identifier, salary);
-    }
+        void print() {
+            printf("\n%s\nidentifier %i\nsalary %lf\n\n", name, identifier, salary);
+        }
 };
 
 int main(void) {
